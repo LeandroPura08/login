@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    max-width: 1536px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+
+    section{
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+
+        .frame57{
+            display: flex;
+            position: relative;
+            height: 583px;
+            width: 404px;
+            flex-direction: column;
+
+            h2{
+                height: 53.1px;
+                position: absolute;
+                top: 0px;
+                width: 252px;
+                font-size: 35px;
+                font-weight: 500;
+                font-style: normal;
+            }
+            .entercredentials{
+                position: absolute;
+                top: 53.1px;
+                width: 372px;
+                height: 26.55px; 
+                font-weight: 500;
+                letter-spacing: .5px;
+                font-style: normal;
+            }
+            .email-container{
+                position: absolute;
+                top: 139.39px;
+                width: 404px;
+                height: 58.63px;
+
+                label{
+                    display: block;
+                    font-size: 14px;
+                    font-weight: 900;
+                    height: 21px;
+                    font-style: normal;
+                }
+                input{
+                    font-size: 14px;
+                    width: 404px;
+                    height: 32px;
+                    border-radius: 10px;
+                    border: .5px solid rgb(151, 149, 149);
+                    padding: 10px;
+                }
+            }
+            .password-container{
+                position: absolute;
+                top: 217.93px;
+                width: 404px;
+                height: 58.63px;
+                label{
+                    display: block;
+                    font-size: 14px;
+                    font-weight: 900;
+                    font-style: normal;
+                    height: 21px;
+                }
+                input{
+                    font-size: 14px;
+                    width: 404px;
+                    height: 32px;
+                    border-radius: 10px;
+                    border: .5px solid rgb(151, 149, 149);
+                    padding: 10px;
+                }
+                
+            }
+            .remember{
+                position: absolute;
+                top: 296.48px;
+                width: 119px;
+                height: 15.49px;
+
+                input{
+                    vertical-align: top;
+                }
+                p{
+                    margin-left: 5px;
+                    display: inline;
+                    font-size: 9px;
+                    font-weight: 700;
+                    vertical-align: top;
+                }
+            }
+            .submit-container{
+                position: absolute;
+                top: 337px;
+                height: 35.4px;
+                width: 404px;
+                vertical-align: top;
+                input{
+                    height: 32px;
+                    width: 404px;
+                    border-radius: 10px;
+                    border: none;
+                    font-size: 13px;
+                    color: white;
+                    font-weight: 700;
+                    background-color: #3A5B22;
+                    cursor: pointer;
+                }
+            }
+            .or{
+                position: absolute;
+                top: 417px;
+                height: 14px;
+                width: 400px;
+
+                p{
+                    position: absolute;
+                    width: 20px;
+                    height: 14px;
+                    left: 191px;
+                    z-index: 10;
+                    background-color: white;
+                    font-weight: 700;
+                    font-style: normal;
+                    letter-spacing: 1.5px;
+                }
+            }
+            .or::after {
+                position: absolute;
+                content: "";
+                background-color: rgb(247, 240, 240);
+                width: 400px;
+                height: 3px;
+                left: 0;
+                top: 50%;
+                
+            }
+        }
+        
+    }
+}
+
