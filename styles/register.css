@@ -31,18 +31,32 @@
                 font-weight: 500;
                 font-style: normal;
             }
-            .entercredentials{
+            .name-container{
                 position: absolute;
-                top: 53.1px;
-                width: 372px;
-                height: 26.55px; 
-                font-weight: 500;
-                letter-spacing: .5px;
-                font-style: normal;
+                top: 110.53px;
+                width: 404px;
+                height: 58.63px;
+
+                label{
+                    display: block;
+                    font-size: 14px;
+                    font-weight: 900;
+                    height: 21px;
+                    font-style: normal;
+                }
+                input{
+                    font-size: 14px;
+                    width: 404px;
+                    height: 32px;
+                    border-radius: 10px;
+                    border: .5px solid rgb(151, 149, 149);
+                    padding: 10px;
+                }
             }
+
             .email-container{
                 position: absolute;
-                top: 139.39px;
+                top: 188.23px;
                 width: 404px;
                 height: 58.63px;
 
@@ -64,7 +78,7 @@
             }
             .password-container{
                 position: absolute;
-                top: 217.93px;
+                top: 265.92px;
                 width: 404px;
                 height: 58.63px;
                 label{
@@ -86,8 +100,7 @@
             }
             .remember{
                 position: absolute;
-                top: 296.48px;
-                width: 119px;
+                top: 343.62px;
                 height: 15.49px;
 
                 input{
@@ -99,11 +112,15 @@
                     font-size: 9px;
                     font-weight: 700;
                     vertical-align: top;
+
+                    span{
+                        text-decoration: underline;
+                    }
                 }
             }
             .submit-container{
                 position: absolute;
-                top: 337px;
+                top: 388.49px;
                 height: 35.4px;
                 width: 404px;
                 vertical-align: top;
@@ -121,7 +138,7 @@
             }
             .or{
                 position: absolute;
-                top: 417px;
+                top: 482.6px;
                 height: 14px;
                 width: 400px;
 
@@ -152,7 +169,7 @@
                 display: flex;
                 justify-content: space-between;
                 position: absolute;
-                top: 505px;
+                top: 558px;
                 width: 403px;
                 height: 32px;
 
@@ -194,7 +211,7 @@
                 width: 229px;
                 height: 23.23px;
                 position: absolute;
-                top: 559.77px;
+                top: 615.02px;
                 text-align: center;
                 left: 93px;
                 font-weight: 500;
