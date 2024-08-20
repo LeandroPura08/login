@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/loginregistration/styles/login.css">
+    <link rel="stylesheet" href="../login/styles/login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
@@ -36,25 +36,25 @@
                 <div class="online-login">
                     <div class="google option">
                         <div class="option-container">
-                            <img src="/loginregistration/assets/icons8-google 1.png" alt="google logo"> 
+                            <img src="../login/assets/icons8-google1.png" alt="google logo"> 
                             <p>Sign in with Google</p>
                         </div>
                     </div>
                     <div class="apple option">
                         <div class="option-container">
-                            <img src="/loginregistration/assets/icons8-apple-logo 1.png" alt="">
+                            <img src="../login/assets/icons8-apple-logo1.png" alt="">
                             <p>Sign in with Apple</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="signup">
-                    <p>Dont have an account? <a href="register.html">Sign Up</a></p>
+                    <p>Dont have an account? <a href="register.php">Sign Up</a></p>
                 </div>
             </form>
         </section>
         <section>
-            <img src="/loginregistration/assets/image.png" alt="">
+            <img src="../login/assets/image.png" alt="">
         </section>
     </div>
 </body>
