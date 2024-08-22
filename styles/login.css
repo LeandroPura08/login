@@ -4,6 +4,26 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+.errormessage{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(224, 84, 84);
+    color: white;
+    text-align: center;
+}
+.success{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(43, 159, 39);
+    color: white;
+    text-align: center;
+}
 .container{
     max-width: 1536px;
     margin: 0 auto;

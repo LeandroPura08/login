@@ -4,6 +4,16 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+.errormessage{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(224, 84, 84);
+    color: white;
+    text-align: center;
+}
 .container{
     max-width: 1536px;
     margin: 0 auto;
@@ -98,9 +108,31 @@
                 }
                 
             }
+            .confirm-password-container{
+                position: absolute;
+                top: 343.61px;
+                width: 404px;
+                height: 58.63px;
+                label{
+                    display: block;
+                    font-size: 14px;
+                    font-weight: 900;
+                    font-style: normal;
+                    height: 21px;
+                }
+                input{
+                    font-size: 14px;
+                    width: 404px;
+                    height: 32px;
+                    border-radius: 10px;
+                    border: .5px solid rgb(151, 149, 149);
+                    padding: 10px;
+                }
+                
+            }
             .remember{
                 position: absolute;
-                top: 343.62px;
+                top: 421.3px;
                 height: 15.49px;
 
                 input{
@@ -120,7 +152,7 @@
             }
             .submit-container{
                 position: absolute;
-                top: 388.49px;
+                top: 466.18px;
                 height: 35.4px;
                 width: 404px;
                 vertical-align: top;
@@ -138,7 +170,7 @@
             }
             .or{
                 position: absolute;
-                top: 482.6px;
+                top: 560.29px;
                 height: 14px;
                 width: 400px;
 
@@ -169,7 +201,7 @@
                 display: flex;
                 justify-content: space-between;
                 position: absolute;
-                top: 558px;
+                top: 635.69px;
                 width: 403px;
                 height: 32px;
 
@@ -210,7 +242,7 @@
             .signup{
                 height: 23.23px;
                 position: absolute;
-                top: 615.02px;
+                top: 692.71px;
                 text-align: center;
                 left: 93px;
                 font-weight: 500;

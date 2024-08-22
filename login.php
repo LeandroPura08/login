@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(isset($_SESSION['username'])){
+    header("location: ../login/dashboard.php");
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,18 +17,25 @@
     <title>Log-in</title>
 </head>
 <body>
+<?php
+    if(isset($_SESSION['errormessage'])){
+?>
+    <p class="errormessage"><?= $_SESSION['errormessage'] ?></p>
+<?php
+    }
+?>
     <div class="container">
         <section>
-            <form class="frame57" action="process.php" method="POST">
+            <form class="frame57" action="../login/processes/login_process.php" method="POST">
                 <h2>Welcome back!</h2>
                 <p class="entercredentials">Enter your Credentials to access your account</p>
                 <div class="email-container">
                     <label for="">Email Address</label>
-                    <input type="text" placeholder="Enter your email">
+                    <input type="text" name="email" placeholder="Enter your email" value="<?= isset($_SESSION['data']['email']) ?  $_SESSION['data']['email'] : null ?>">
                 </div>
                 <div class="password-container">
                     <label for="">Password</label>
-                    <input type="text" placeholder="Enter password">
+                    <input type="password" name="password" placeholder="Enter password">
                 </div>
                 <div class="remember">
                     <input type="checkbox"><p>Remember for 30 days</p>
@@ -57,5 +71,8 @@
             <img src="../login/assets/image.png" alt="">
         </section>
     </div>
+<?php
+session_destroy();
+?>
 </body>
 </html>
