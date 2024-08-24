@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+
+.success{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(43, 109, 43);
+    font-size: large;
+    color: white;
+    padding: 10px;
+    top: 0;
+}
+.failed{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    text-align: center;
+    background-color:rgb(207, 76, 76);
+    font-size: large;
+    color: white;
+    padding: 10px;
+    top: 0;
+}
+
+header{
+    width: 100%;
+    border: 1px solid black;
+    padding: 1.5%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+
+
+    nav{
+        display: flex;
+        .pagename-logo{
+            display: flex;
+            flex: 1;
+        }
+
+        ul{
+            display: flex;
+            width: 200px;
+            justify-content: space-between;
+
+
+            li{
+                display: inline-block;
+                display: flex;
+                flex: 1;
+                justify-content: end;
+                p{
+                    margin: 0 4px;
+    
+                }
+            }
+        }
+    }
+}
+
+
+.container{
+    height: 1000px;
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+    .bogcontainer{
+
+        padding: 1%;
+        .title{
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 1%;
+        }
+        p{
+            font-size: large;
+        }
+
+    }
+
+    .leavereview{
+        padding: 1%;
+        
+        h2{
+            letter-spacing: 1px;
+            margin-bottom: 1%;
+        }
+
+        textarea{
+            padding: 1%;
+            font-size: large;
+            margin-bottom: 1%;
+        }
+        input{
+            padding: 5px 10px;
+            font-size: large;
+            cursor: pointer;
+            background-color: rgba(3, 3, 243, 0.788);
+            color: white;
+            border: 1px solid rgb(155, 147, 147);
+            letter-spacing: 1px;
+        }
+    }
+    .reviews{
+        padding: 1%;
+        overflow-y: auto;
+        height: 400px;
+        border: 1px solid black;
+        position: relative;
+
+
+        .review{
+            border: 1px solid black;
+            margin: 1% 0;
+            padding: 20px;
+
+            .reviewer-name{
+                color: red;
+                font-size: large;
+                font-weight: 700;
+            }
+            .review-content{
+                padding: 1%;
+                font-size: large;
+                margin-bottom: 1%;
+                height: auto;
+            }
+        }
+
+        .tick-comment{
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+            margin-left: 91%;
+        }
+
+
+        .comment-container{
+            display: none;
+            justify-content: end;
+            flex-direction: column;
+            width: 70%;
+            margin-left: 30%;
+            
+
+            .comment{
+                padding: 1%;
+                border: 1px solid black;
+                margin: 1% 0;
+
+                .username{
+                    color: red;
+                    font-size: medium;
+                    font-weight: 700;
+                }
+                .comment-context{
+                    padding: 1%;
+                }
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                justify-content: end;
+                margin-top: 10px;
+
+                textarea{
+                    padding: 1%;
+                    font-size: large;
+                    margin-bottom: 1%;
+                    width: 70%;
+                    margin-left: 30%;
+                    height: auto;
+                }
+                input{
+                    padding: 5px 10px;
+                    font-size: medium;
+                    cursor: pointer;
+                    background-color: rgba(3, 3, 243, 0.788);
+                    color: white;
+                    border: 1px solid rgb(155, 147, 147);
+                    letter-spacing: 1px;
+                    width: 160px;
+                    margin-left: 83%;
+                }
+            }
+        }
+    }
+}

@@ -28,6 +28,7 @@ function processLogin($email, $password){
             }else{
                 $_SESSION['success'] = "Login Successfull!";
                 $_SESSION['username'] = $record['user_name'];
+                $_SESSION['userId'] =  $record['id'];
                 header("location: ../dashboard.php");
                 exit();
             }

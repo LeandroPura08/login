@@ -5,7 +5,7 @@
 define('DB_HOST', '127.0.0.1');
 define('DB_USER', 'root');
 define('DB_PASS', 'Tuesday05032016@'); //may need to set DB_PASS as 'root'
-define('DB_DATABASE', 'blogpage_db'); //make sure to set your database
+define('DB_DATABASE', 'blogpagerecreated_new'); //make sure to set your database
 //connect to database host
 $connection = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_DATABASE);
 //make sure connection is good or die

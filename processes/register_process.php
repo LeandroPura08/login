@@ -49,6 +49,7 @@
                     if(run_mysql_query($query)){
                         $_SESSION['success'] = "Login Successfull!";
                         $_SESSION['username'] = $username;
+                        $_SESSION['userId'] =  $record['id'];
                         header("location: ../dashboard.php");
                         exit();
                     }

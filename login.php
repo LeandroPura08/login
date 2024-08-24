@@ -22,6 +22,10 @@ if(isset($_SESSION['username'])){
 ?>
     <p class="errormessage"><?= $_SESSION['errormessage'] ?></p>
 <?php
+    }else if(isset($_SESSION['success'])){
+?>
+    <p class="errormessage"><?= $_SESSION['errormessage'] ?></p>
+<?php
     }
 ?>
     <div class="container">
